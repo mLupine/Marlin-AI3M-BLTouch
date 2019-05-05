@@ -97,10 +97,10 @@
 // Servos
 #if TRIGORILLA_VERSION == 0 // Default Trigorilla
   #ifdef NUM_SERVOS
-  	#define SERVO0_PIN      11
+  	#define SERVO0_PIN      6
 
   	#if NUM_SERVOS > 1
-  		#define SERVO1_PIN    6
+  		#define SERVO1_PIN    11
   	#endif
 
   	#if NUM_SERVOS > 2
